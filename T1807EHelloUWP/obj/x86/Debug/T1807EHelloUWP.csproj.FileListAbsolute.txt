@@ -54,3 +54,13 @@ C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Page
 C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\Register.g.cs
 C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\Register.xaml
 C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\Register.xbf
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\bin\x86\Debug\Pages\MasterLayout.xbf
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\MasterLayout.g.i.cs
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\MasterLayout.g.cs
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\MasterLayout.xaml
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\MasterLayout.xbf
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\bin\x86\Debug\Pages\Login.xbf
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\Login.g.i.cs
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\Login.g.cs
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\Login.xaml
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\Login.xbf

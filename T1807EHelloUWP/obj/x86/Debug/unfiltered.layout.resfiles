@@ -9,6 +9,8 @@ Assets\Wide310x150Logo.scale-200.png
 App.xbf
 MainPage.xbf
 Pages\HelloUWP.xbf
+Pages\Login.xbf
+Pages\MasterLayout.xbf
 Pages\Register.xbf
 T1807EHelloUWP.xr.xml
 Properties\Default.rd.xml

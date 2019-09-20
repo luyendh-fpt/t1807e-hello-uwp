@@ -126,6 +126,12 @@
     <Compile Include="Pages\HelloUWP.xaml.cs">
       <DependentUpon>HelloUWP.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MasterLayout.xaml.cs">
+      <DependentUpon>MasterLayout.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Register.xaml.cs">
       <DependentUpon>Register.xaml</DependentUpon>
     </Compile>
@@ -156,6 +162,14 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\HelloUWP.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\MasterLayout.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

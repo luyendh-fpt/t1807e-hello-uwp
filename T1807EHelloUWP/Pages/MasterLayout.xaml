@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="T1807EHelloUWP.Pages.MasterLayout"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:T1807EHelloUWP.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <SplitView x:Name="SplitView" DisplayMode="CompactOverlay" IsPaneOpen="True">
+        <SplitView.Pane>
+            <StackPanel>
+                <SymbolIcon Symbol="GlobalNavigationButton" 
+                            Tapped="ToogleMenu_OnClick" 
+                            HorizontalAlignment="Left" 
+                            Margin="10 10"/>
+                <HyperlinkButton Tag="Register" Click="ButtonBase_OnClick">Register</HyperlinkButton>
+                <HyperlinkButton Tag="Login" Click="ButtonBase_OnClick">Login</HyperlinkButton>
+                <HyperlinkButton>My Information</HyperlinkButton>
+            </StackPanel>
+        </SplitView.Pane>
+        <SplitView.Content>
+            <Frame x:Name="MainContent"></Frame>
+        </SplitView.Content>
+    </SplitView>
+</Page>

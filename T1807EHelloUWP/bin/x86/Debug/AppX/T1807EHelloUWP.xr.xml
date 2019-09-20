@@ -29,15 +29,35 @@
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="T1807EHelloUWP.Pages.HelloUWP" />
-    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
-      <RootProperty Name="Margin" />
+    <RootType FullName="T1807EHelloUWP.Pages.Login" />
+    <RootType FullName="Windows.UI.Xaml.Controls.SplitView">
+      <RootProperty Name="DisplayMode" />
+      <RootProperty Name="IsPaneOpen" />
+      <RootProperty Name="Pane" />
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Children" />
       <RootProperty Name="Margin" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.SymbolIcon">
+      <RootProperty Name="Symbol" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootEvent Name="Tapped" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.HyperlinkButton">
+      <RootProperty Name="Tag" />
+      <RootProperty Name="Content" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
+    <RootType FullName="T1807EHelloUWP.Pages.MasterLayout" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="T1807EHelloUWP.Pages.Register" />
   </Roots.RootTypes>
