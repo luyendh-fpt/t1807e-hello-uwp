@@ -5,6 +5,8 @@ using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Text;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -26,6 +28,8 @@ namespace T1807EHelloUWP.Pages
     /// </summary>
     public sealed partial class Register : Page
     {
+        private const string ApiUrl = "https://2-dot-backup-server-003.appspot.com/_api/v2/members";
+
         public Register()
         {
             this.InitializeComponent();
@@ -36,12 +40,25 @@ namespace T1807EHelloUWP.Pages
         {
             var member = new Member
             {
-                Username = this.Username.Text,
-                Password = this.Password.Password
+                firstName = "Dao",
+                lastName = "Hung",
+                password = "123456",
+                address = "Hai Ba Trung",
+                avatar = "https://i.ytimg.com/vi/MBtJdkiEhBk/maxresdefault.jpg",
+                birthday = "2000-12-26",
+                email = "hungdx@gmail.com",
+                gender = 1,
+                introduction = "Hello T1807E",
+                phone = "091234567"
             };
             // validate phía client.
-            Debug.WriteLine(JsonConvert.SerializeObject(member));
-            HttpClient httpClient = new HttpClient();
+            //Debug.WriteLine(JsonConvert.SerializeObject(member));
+            var httpClient = new HttpClient();
+            HttpContent content = new StringContent(JsonConvert.SerializeObject(member), Encoding.UTF8,
+                "application/json");
+            Task<HttpResponseMessage> httpRequestMessage = httpClient.PostAsync(ApiUrl, content);
+            String responseContent = httpClient.PostAsync(ApiUrl, content).Result.Content.ReadAsStringAsync().Result;
+
         }
     }
 
