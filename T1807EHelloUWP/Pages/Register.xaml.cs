@@ -46,19 +46,23 @@ namespace T1807EHelloUWP.Pages
                 address = "Hai Ba Trung",
                 avatar = "https://i.ytimg.com/vi/MBtJdkiEhBk/maxresdefault.jpg",
                 birthday = "2000-12-26",
-                email = "hungdx@gmail.com",
+                email = "hungdx1234@gmail.com",
                 gender = 1,
                 introduction = "Hello T1807E",
                 phone = "091234567"
             };
             // validate phía client.
-            //Debug.WriteLine(JsonConvert.SerializeObject(member));
+            Debug.WriteLine(JsonConvert.SerializeObject(member));
             var httpClient = new HttpClient();
+            //httpClient.DefaultRequestHeaders.Add("Authorization", "Basic " + token);
             HttpContent content = new StringContent(JsonConvert.SerializeObject(member), Encoding.UTF8,
                 "application/json");
             Task<HttpResponseMessage> httpRequestMessage = httpClient.PostAsync(ApiUrl, content);
             String responseContent = httpClient.PostAsync(ApiUrl, content).Result.Content.ReadAsStringAsync().Result;
+            Debug.WriteLine("Response: " + responseContent);
 
+            Member resMember = JsonConvert.DeserializeObject<Member>(responseContent);
+            Debug.WriteLine(resMember.email);
         }
     }
 

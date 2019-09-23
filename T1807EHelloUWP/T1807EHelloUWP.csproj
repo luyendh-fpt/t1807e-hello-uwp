@@ -132,6 +132,9 @@
     <Compile Include="Pages\MasterLayout.xaml.cs">
       <DependentUpon>MasterLayout.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Naview.xaml.cs">
+      <DependentUpon>Naview.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Register.xaml.cs">
       <DependentUpon>Register.xaml</DependentUpon>
     </Compile>
@@ -170,6 +173,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\MasterLayout.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Naview.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
