@@ -30,6 +30,9 @@
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
                 <NavigationViewItem Tag="music" Icon="Audio" Content="Music"/>
+                <NavigationViewItemSeparator/>
+                <NavigationViewItem Tag="register" Icon="AddFriend" Content="Register"/>
+                <NavigationViewItem Tag="login" Icon="Contact" Content="Login"/>
             </NavigationView.MenuItems>
 
             <NavigationView.AutoSuggestBox>

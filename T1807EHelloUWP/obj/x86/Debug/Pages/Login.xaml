@@ -9,7 +9,16 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock>Login Page</TextBlock>
+        <ScrollViewer>
+            <StackPanel>
+                <TextBlock>Email</TextBlock>
+                <TextBox x:ConnectionId='2' x:Name="Email"></TextBox>
+                <TextBlock>Password</TextBlock>
+                <PasswordBox x:ConnectionId='3' x:Name="Password"></PasswordBox>
+                <Button x:ConnectionId='4'                            >Login</Button>
+                <Button x:ConnectionId='5'                            >Reset</Button>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Page>
 

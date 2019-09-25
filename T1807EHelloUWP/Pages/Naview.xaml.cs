@@ -44,20 +44,12 @@ namespace T1807EHelloUWP.Pages
             ("apps", typeof(MainPage)),
             ("games", typeof(MainPage)),
             ("music", typeof(MainPage)),
+            ("register", typeof(Register)),
+            ("login", typeof(Login))
         };
 
         private void NavView_Loaded(object sender, RoutedEventArgs e)
         {
-            // You can also add items in code.
-            NavView.MenuItems.Add(new NavigationViewItemSeparator());
-            NavView.MenuItems.Add(new NavigationViewItem
-            {
-                Content = "My content",
-                Icon = new SymbolIcon((Symbol) 0xF1AD),
-                Tag = "content"
-            });
-            _pages.Add(("content", typeof(Register)));
-
             // Add handler for ContentFrame navigation.
             ContentFrame.Navigated += On_Navigated;
 

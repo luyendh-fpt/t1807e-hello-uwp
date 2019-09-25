@@ -17,6 +17,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using T1807EHelloUWP.Entity;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
@@ -46,23 +47,28 @@ namespace T1807EHelloUWP.Pages
                 address = "Hai Ba Trung",
                 avatar = "https://i.ytimg.com/vi/MBtJdkiEhBk/maxresdefault.jpg",
                 birthday = "2000-12-26",
-                email = "hungdx1234@gmail.com",
+                email = "hungdx1234567@gmail.com",
                 gender = 1,
                 introduction = "Hello T1807E",
                 phone = "091234567"
             };
             // validate phía client.
             Debug.WriteLine(JsonConvert.SerializeObject(member));
+
             var httpClient = new HttpClient();
             //httpClient.DefaultRequestHeaders.Add("Authorization", "Basic " + token);
             HttpContent content = new StringContent(JsonConvert.SerializeObject(member), Encoding.UTF8,
                 "application/json");
+
             Task<HttpResponseMessage> httpRequestMessage = httpClient.PostAsync(ApiUrl, content);
-            String responseContent = httpClient.PostAsync(ApiUrl, content).Result.Content.ReadAsStringAsync().Result;
+            String responseContent = httpRequestMessage.Result.Content.ReadAsStringAsync().Result;
             Debug.WriteLine("Response: " + responseContent);
 
             Member resMember = JsonConvert.DeserializeObject<Member>(responseContent);
             Debug.WriteLine(resMember.email);
+
+            JObject resObject = JObject.Parse(responseContent);
+            Debug.WriteLine(resObject["email"]);
         }
     }
 
