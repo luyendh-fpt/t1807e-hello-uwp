@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock>Hello File</TextBlock>
+        <TextBlock x:Name="ImageUrl">Hello File</TextBlock>
         <Image x:Name="ImageControl" Width="200" Height="200"/>
         <Button Click="ButtonBase_OnClick">Click to capture image</Button>
     </Grid>
