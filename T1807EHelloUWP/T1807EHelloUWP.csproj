@@ -124,6 +124,9 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\FileHandle.xaml.cs">
+      <DependentUpon>FileHandle.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\HelloUWP.xaml.cs">
       <DependentUpon>HelloUWP.xaml</DependentUpon>
     </Compile>
@@ -164,6 +167,10 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\FileHandle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\HelloUWP.xaml">
       <SubType>Designer</SubType>

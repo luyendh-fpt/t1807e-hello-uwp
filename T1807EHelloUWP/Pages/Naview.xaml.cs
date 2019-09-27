@@ -45,7 +45,8 @@ namespace T1807EHelloUWP.Pages
             ("games", typeof(MainPage)),
             ("music", typeof(MainPage)),
             ("register", typeof(Register)),
-            ("login", typeof(Login))
+            ("login", typeof(Login)),
+            ("file", typeof(FileHandle))
         };
 
         private void NavView_Loaded(object sender, RoutedEventArgs e)

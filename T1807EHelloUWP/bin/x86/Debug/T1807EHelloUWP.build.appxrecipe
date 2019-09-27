@@ -76,6 +76,9 @@
     <AppxPackagedFile Include="C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\bin\x86\Debug\Pages\FileHandle.xbf">
+      <PackagePath>Pages\FileHandle.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\bin\x86\Debug\Pages\HelloUWP.xbf">
       <PackagePath>Pages\HelloUWP.xbf</PackagePath>
     </AppxPackagedFile>

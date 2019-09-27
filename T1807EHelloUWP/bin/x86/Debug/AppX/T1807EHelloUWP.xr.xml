@@ -8,26 +8,31 @@
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Children" />
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="RowDefinitions" />
-      <RootProperty Name="Children" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
     </RootType>
     <RootType FullName="T1807EHelloUWP.MainPage" />
-    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition" />
-    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Inlines" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBox" />
-    <RootType FullName="Windows.UI.Xaml.Controls.PasswordBox" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
       <RootEvent Name="Click" />
     </RootType>
+    <RootType FullName="T1807EHelloUWP.Pages.FileHandle" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox" />
+    <RootType FullName="Windows.UI.Xaml.Controls.PasswordBox" />
     <RootType FullName="T1807EHelloUWP.Pages.HelloUWP" />
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootProperty Name="Content" />

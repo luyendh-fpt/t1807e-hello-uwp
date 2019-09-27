@@ -69,3 +69,8 @@ C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Page
 C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\Naview.g.cs
 C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\Naview.xaml
 C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\Naview.xbf
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\bin\x86\Debug\Pages\FileHandle.xbf
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\FileHandle.g.i.cs
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\FileHandle.g.cs
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\FileHandle.xaml
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\FileHandle.xbf
