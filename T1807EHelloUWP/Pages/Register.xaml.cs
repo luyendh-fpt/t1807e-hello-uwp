@@ -19,6 +19,7 @@ using Windows.UI.Xaml.Navigation;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using T1807EHelloUWP.Entity;
+using T1807EHelloUWP.Service;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -29,11 +30,12 @@ namespace T1807EHelloUWP.Pages
     /// </summary>
     public sealed partial class Register : Page
     {
-        private const string ApiUrl = "https://2-dot-backup-server-003.appspot.com/_api/v2/members";
+        private MemberService memberService;
 
         public Register()
         {
             this.InitializeComponent();
+            this.memberService = new MemberServiceImp();
         }
         
 
@@ -55,20 +57,15 @@ namespace T1807EHelloUWP.Pages
             // validate phía client.
             Debug.WriteLine(JsonConvert.SerializeObject(member));
 
-            var httpClient = new HttpClient();
-            //httpClient.DefaultRequestHeaders.Add("Authorization", "Basic " + token);
-            HttpContent content = new StringContent(JsonConvert.SerializeObject(member), Encoding.UTF8,
-                "application/json");
-
-            Task<HttpResponseMessage> httpRequestMessage = httpClient.PostAsync(ApiUrl, content);
-            String responseContent = httpRequestMessage.Result.Content.ReadAsStringAsync().Result;
-            Debug.WriteLine("Response: " + responseContent);
-
-            Member resMember = JsonConvert.DeserializeObject<Member>(responseContent);
-            Debug.WriteLine(resMember.email);
-
-            JObject resObject = JObject.Parse(responseContent);
-            Debug.WriteLine(resObject["email"]);
+            member = memberService.Register(member);
+            if (member == null)
+            {
+                // show error
+            }
+            else
+            {
+                // show success
+            }
         }
     }
 

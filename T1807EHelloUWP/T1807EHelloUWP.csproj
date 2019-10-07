@@ -119,6 +119,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Constant\ApiUrl.cs" />
     <Compile Include="Entity\Member.cs" />
     <Compile Include="Entity\MemberLogin.cs" />
     <Compile Include="MainPage.xaml.cs">
@@ -146,6 +147,7 @@
     <Compile Include="Service\FileService.cs" />
     <Compile Include="Service\MemberService.cs" />
     <Compile Include="Service\MemberServiceImp.cs" />
+    <Compile Include="Service\MemberServiceWithDatabaseImp.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
