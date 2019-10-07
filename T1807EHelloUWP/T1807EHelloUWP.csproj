@@ -122,6 +122,7 @@
     <Compile Include="Constant\ApiUrl.cs" />
     <Compile Include="Entity\Member.cs" />
     <Compile Include="Entity\MemberLogin.cs" />
+    <Compile Include="Entity\Song.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -130,6 +131,9 @@
     </Compile>
     <Compile Include="Pages\HelloUWP.xaml.cs">
       <DependentUpon>HelloUWP.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ListSong.xaml.cs">
+      <DependentUpon>ListSong.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
@@ -143,11 +147,16 @@
     <Compile Include="Pages\Register.xaml.cs">
       <DependentUpon>Register.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\SongForm.xaml.cs">
+      <DependentUpon>SongForm.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\FileService.cs" />
+    <Compile Include="Service\ISongService.cs" />
     <Compile Include="Service\MemberService.cs" />
     <Compile Include="Service\MemberServiceImp.cs" />
     <Compile Include="Service\MemberServiceWithDatabaseImp.cs" />
+    <Compile Include="Service\SongService.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -181,6 +190,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\ListSong.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Login.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -194,6 +207,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\Register.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\SongForm.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

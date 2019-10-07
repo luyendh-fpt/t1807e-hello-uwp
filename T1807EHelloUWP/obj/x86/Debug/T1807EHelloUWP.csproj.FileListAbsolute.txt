@@ -74,3 +74,13 @@ C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Page
 C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\FileHandle.g.cs
 C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\FileHandle.xaml
 C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\FileHandle.xbf
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\bin\x86\Debug\Pages\ListSong.xbf
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\bin\x86\Debug\Pages\SongForm.xbf
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\ListSong.g.i.cs
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\ListSong.g.cs
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\SongForm.g.i.cs
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\SongForm.g.cs
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\ListSong.xaml
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\SongForm.xaml
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\ListSong.xbf
+C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\obj\x86\Debug\Pages\SongForm.xbf

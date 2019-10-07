@@ -19,6 +19,7 @@
     <RootType FullName="T1807EHelloUWP.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Inlines" />
+      <RootProperty Name="Text" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Width" />
@@ -26,6 +27,8 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="T1807EHelloUWP.Pages.FileHandle" />
@@ -34,6 +37,15 @@
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox" />
     <RootType FullName="Windows.UI.Xaml.Controls.PasswordBox" />
     <RootType FullName="T1807EHelloUWP.Pages.HelloUWP" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="T1807EHelloUWP.Pages.ListSong" />
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootProperty Name="Content" />
       <RootProperty Name="Margin" />
@@ -105,12 +117,12 @@
     <RootType FullName="Windows.UI.Xaml.AdaptiveTrigger">
       <RootProperty Name="MinWindowWidth" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
     <RootType FullName="Windows.UI.Xaml.Setter">
       <RootProperty Name="Target" />
       <RootProperty Name="Value" />
     </RootType>
     <RootType FullName="T1807EHelloUWP.Pages.Naview" />
     <RootType FullName="T1807EHelloUWP.Pages.Register" />
+    <RootType FullName="T1807EHelloUWP.Pages.SongForm" />
   </Roots.RootTypes>
 </Roots>

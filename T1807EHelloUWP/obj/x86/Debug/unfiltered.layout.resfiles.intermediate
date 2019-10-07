@@ -10,9 +10,11 @@ App.xbf
 MainPage.xbf
 Pages\FileHandle.xbf
 Pages\HelloUWP.xbf
+Pages\ListSong.xbf
 Pages\Login.xbf
 Pages\MasterLayout.xbf
 Pages\Naview.xbf
 Pages\Register.xbf
+Pages\SongForm.xbf
 T1807EHelloUWP.xr.xml
 Properties\Default.rd.xml
