@@ -9,6 +9,17 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <StackPanel>
+            <TextBlock>Name</TextBlock>
+            <TextBox x:Name="Name"></TextBox>
+            <TextBlock x:Name="NameMessage" Visibility="Collapsed" Foreground="Red"></TextBlock>
+            <TextBlock>Single</TextBlock>
+            <TextBox x:Name="Single"></TextBox>
+            <TextBlock>Thumbnail</TextBlock>
+            <TextBox x:Name="Thumbnail"></TextBox>
+            <TextBlock>Link</TextBlock>
+            <TextBox x:Name="Link"></TextBox>
+        </StackPanel>
         <Button Content="Post Free Song" Margin="74,63,0,0" VerticalAlignment="Top" Click="ButtonBase_OnClick"/>
 
     </Grid>

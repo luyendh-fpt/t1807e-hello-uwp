@@ -10,12 +10,28 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <ListView ItemsSource="{x:Bind Songs}">
-            <ListView.ItemTemplate>
-                <DataTemplate x:DataType="entity:Song">
-                    <TextBlock Text="{x:Bind name}"></TextBlock>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+        <StackPanel>
+            <ListView x:Name="ListViewSong">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="entity:Song">
+                        <StackPanel HorizontalAlignment="Stretch" Tapped="SelectSong" Tag="{Binding}" >
+                            <TextBlock Text="{x:Bind name}" HorizontalAlignment="Stretch"></TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+        <StackPanel VerticalAlignment="Bottom">
+            <MediaElement x:Name="MyMediaPlayer"/>
+            <CommandBar>
+                <AppBarSeparator/>
+                <AppBarButton x:Name="PreviousButton" Icon="Previous" Label="Previous" Click="PreviousButton_OnClick"/>
+                <AppBarButton x:Name="StatusButton" Icon="Play" Label="Play" Click="StatusButton_OnClick"/>
+                <AppBarButton x:Name="NextButton" Icon="Next" Label="Next" Click="NextButton_OnClick"/>
+                <CommandBar.Content>
+                    <TextBlock x:Name="ControlLabel" Text="Please choose a song." Margin="12,14"/>
+                </CommandBar.Content>
+            </CommandBar>
+        </StackPanel>
     </Grid>
 </Page>
