@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-09T13:18:51.150</Modified>
+      <Modified>2019-10-11T13:10:16.721</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\bin\x86\Debug\T1807EHelloUWP.exe">
       <PackagePath>entrypoint\T1807EHelloUWP.exe</PackagePath>
-      <Modified>2019-10-09T13:18:50.688</Modified>
+      <Modified>2019-10-11T13:10:16.256</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xuan hung\.nuget\packages\newtonsoft.json\12.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -90,47 +90,47 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\bin\x86\Debug\T1807EHelloUWP.xr.xml">
       <PackagePath>T1807EHelloUWP.xr.xml</PackagePath>
-      <Modified>2019-10-09T13:18:09.525</Modified>
+      <Modified>2019-10-11T13:10:15.986</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-10-09T13:18:50.432</Modified>
+      <Modified>2019-10-11T13:10:16.024</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-10-09T13:18:50.433</Modified>
+      <Modified>2019-10-11T13:10:16.025</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\bin\x86\Debug\Pages\FileHandle.xbf">
       <PackagePath>Pages\FileHandle.xbf</PackagePath>
-      <Modified>2019-10-09T13:18:50.433</Modified>
+      <Modified>2019-10-11T13:10:16.025</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\bin\x86\Debug\Pages\HelloUWP.xbf">
       <PackagePath>Pages\HelloUWP.xbf</PackagePath>
-      <Modified>2019-10-09T13:18:50.434</Modified>
+      <Modified>2019-10-11T13:10:16.025</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\bin\x86\Debug\Pages\ListSong.xbf">
       <PackagePath>Pages\ListSong.xbf</PackagePath>
-      <Modified>2019-10-09T13:18:50.434</Modified>
+      <Modified>2019-10-11T13:10:16.026</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\bin\x86\Debug\Pages\Login.xbf">
       <PackagePath>Pages\Login.xbf</PackagePath>
-      <Modified>2019-10-09T13:18:50.434</Modified>
+      <Modified>2019-10-11T13:10:16.026</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\bin\x86\Debug\Pages\MasterLayout.xbf">
       <PackagePath>Pages\MasterLayout.xbf</PackagePath>
-      <Modified>2019-10-09T13:18:50.435</Modified>
+      <Modified>2019-10-11T13:10:16.026</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\bin\x86\Debug\Pages\Naview.xbf">
       <PackagePath>Pages\Naview.xbf</PackagePath>
-      <Modified>2019-10-09T13:18:50.435</Modified>
+      <Modified>2019-10-11T13:10:16.027</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\bin\x86\Debug\Pages\Register.xbf">
       <PackagePath>Pages\Register.xbf</PackagePath>
-      <Modified>2019-10-09T13:18:50.435</Modified>
+      <Modified>2019-10-11T13:10:16.027</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\bin\x86\Debug\Pages\SongForm.xbf">
       <PackagePath>Pages\SongForm.xbf</PackagePath>
-      <Modified>2019-10-09T13:18:50.436</Modified>
+      <Modified>2019-10-11T13:10:16.027</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -142,7 +142,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\xuan hung\source\repos\T1807EHelloUWP\T1807EHelloUWP\bin\x86\Debug\Core\T1807EHelloUWP.exe">
       <PackagePath>T1807EHelloUWP.exe</PackagePath>
-      <Modified>2019-10-09T13:18:51.144</Modified>
+      <Modified>2019-10-11T13:10:16.716</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

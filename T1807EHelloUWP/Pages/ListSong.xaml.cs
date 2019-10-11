@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 using T1807EHelloUWP.Entity;
 using T1807EHelloUWP.Service;
@@ -47,7 +48,7 @@ namespace T1807EHelloUWP.Pages
 
         private void SelectSong(object sender, TappedRoutedEventArgs e)
         {
-            var selectItem = sender as StackPanel;
+            var selectItem = sender as TextBlock;
             MyMediaPlayer.Pause();
             if (selectItem != null)
             {
@@ -113,5 +114,20 @@ namespace T1807EHelloUWP.Pages
             }
             Play();
         }
+
+        private void ListViewSong_OnDoubleTapped(object sender, DoubleTappedRoutedEventArgs e)
+        {
+
+            var selectItem = ListViewSong.SelectedItem as Song;
+            MyMediaPlayer.Pause();
+            if (selectItem != null)
+            {
+                _currentIndex = _songs.IndexOf(selectItem);
+                MyMediaPlayer.Source = new Uri(selectItem.link);
+                SongThumbnail.ImageSource = new BitmapImage(new Uri(selectItem.thumbnail));
+                Play();
+            }
+        }
+
     }
 }

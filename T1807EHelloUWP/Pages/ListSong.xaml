@@ -10,17 +10,15 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <StackPanel>
-            <ListView x:Name="ListViewSong">
+        <ScrollViewer>
+            <ListView x:Name="ListViewSong" DoubleTapped="ListViewSong_OnDoubleTapped">
                 <ListView.ItemTemplate>
                     <DataTemplate x:DataType="entity:Song">
-                        <StackPanel HorizontalAlignment="Stretch" Tapped="SelectSong" Tag="{Binding}" >
-                            <TextBlock Text="{x:Bind name}" HorizontalAlignment="Stretch"></TextBlock>
-                        </StackPanel>
+                        <TextBlock Text="{x:Bind name}"></TextBlock>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-        </StackPanel>
+        </ScrollViewer>
         <StackPanel VerticalAlignment="Bottom">
             <MediaElement x:Name="MyMediaPlayer"/>
             <CommandBar>
@@ -29,8 +27,16 @@
                 <AppBarButton x:Name="StatusButton" Icon="Play" Label="Play" Click="StatusButton_OnClick"/>
                 <AppBarButton x:Name="NextButton" Icon="Next" Label="Next" Click="NextButton_OnClick"/>
                 <CommandBar.Content>
-                    <TextBlock x:Name="ControlLabel" Text="Please choose a song." Margin="12,14"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Ellipse Height="60" Width="60" Margin="2">
+                            <Ellipse.Fill>
+                                <ImageBrush x:Name="SongThumbnail" ImageSource="https://www.remove.bg/images/samples/combined/s1.jpg"/>
+                            </Ellipse.Fill>
+                        </Ellipse>
+                        <TextBlock x:Name="ControlLabel" Text="Please choose a song." Margin="12,14"/>
+                    </StackPanel>
                 </CommandBar.Content>
+                
             </CommandBar>
         </StackPanel>
     </Grid>

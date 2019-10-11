@@ -10,17 +10,15 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <StackPanel>
-            <ListView x:ConnectionId='7' x:Name="ListViewSong">
+        <ScrollViewer>
+            <ListView x:ConnectionId='8' x:Name="ListViewSong"                                           >
                 <ListView.ItemTemplate>
                     <DataTemplate                         >
-                        <StackPanel x:ConnectionId='9' HorizontalAlignment="Stretch"                     Tag="{Binding}" >
-                            <TextBlock x:ConnectionId='10'                      HorizontalAlignment="Stretch"></TextBlock>
-                        </StackPanel>
+                        <TextBlock x:ConnectionId='10'                     ></TextBlock>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-        </StackPanel>
+        </ScrollViewer>
         <StackPanel VerticalAlignment="Bottom">
             <MediaElement x:ConnectionId='2' x:Name="MyMediaPlayer"/>
             <CommandBar>
@@ -29,8 +27,23 @@
                 <AppBarButton x:ConnectionId='4' x:Name="StatusButton" Icon="Play" Label="Play"                             />
                 <AppBarButton x:ConnectionId='5' x:Name="NextButton" Icon="Next" Label="Next"                           />
                 <CommandBar.Content>
-                    <TextBlock x:ConnectionId='6' x:Name="ControlLabel" Text="Please choose a song." Margin="12,14"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Ellipse Height="60" Width="60" Margin="2">
+                            <Ellipse.Fill>
+                                <ImageBrush x:ConnectionId='7' x:Name="SongThumbnail" ImageSource="https://www.remove.bg/images/samples/combined/s1.jpg"/>
+                            </Ellipse.Fill>
+                        </Ellipse>
+                        <!--<Image Width="40" Height="40"  x:Name="SongThumbnail" Source="https://www.remove.bg/images/samples/combined/s1.jpg" Stretch="None" HorizontalAlignment="Left" Margin="2" 
+                               PointerEntered="SongThumbnail_OnPointerEntered"
+                               PointerExited="SongThumbnail_OnPointerExited">
+                            <Image.RenderTransform>
+                                <CompositeTransform x:Name="ThumbnailTransform"></CompositeTransform>
+                            </Image.RenderTransform>
+                        </Image>-->
+                        <TextBlock x:ConnectionId='6' x:Name="ControlLabel" Text="Please choose a song." Margin="12,14"/>
+                    </StackPanel>
                 </CommandBar.Content>
+                
             </CommandBar>
         </StackPanel>
     </Grid>
